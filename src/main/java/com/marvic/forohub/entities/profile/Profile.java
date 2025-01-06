@@ -13,8 +13,7 @@ public class Profile {
     private long id;
     @Column(nullable = false, unique = true, length = 100)
     private String name;
-
-    @Transient
+    
     @ManyToMany
     private Set<User> users;
 
