@@ -4,7 +4,7 @@ import com.marvic.forohub.dtos.course.CourseDTO;
 import com.marvic.forohub.dtos.course.NewCourseDTO;
 import com.marvic.forohub.entities.course.Course;
 import com.marvic.forohub.exceptions.DataNotFoundException;
-import com.marvic.forohub.repository.CourseRepository;
+import com.marvic.forohub.repository.course.CourseRepository;
 import com.marvic.forohub.service.course.inter.ICourseService;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;

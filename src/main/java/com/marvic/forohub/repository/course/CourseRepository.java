@@ -1,4 +1,4 @@
-package com.marvic.forohub.repository;
+package com.marvic.forohub.repository.course;
 
 import com.marvic.forohub.entities.course.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
