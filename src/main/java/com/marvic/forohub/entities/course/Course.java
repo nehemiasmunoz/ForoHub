@@ -1,5 +1,6 @@
 package com.marvic.forohub.entities.course;
 
+import com.marvic.forohub.dtos.course.NewCourseDTO;
 import jakarta.persistence.*;
 
 @Entity
@@ -18,6 +19,11 @@ public class Course {
     public Course(String name, String category) {
         this.name = name;
         this.category = category;
+    }
+
+    public Course(NewCourseDTO newCourseDTO) {
+        this.name = newCourseDTO.name();
+        this.category = newCourseDTO.category();
     }
 
     public Long getId() {
